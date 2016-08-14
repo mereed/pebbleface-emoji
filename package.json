@@ -1,0 +1,123 @@
+{
+    "author": "chops",
+    "dependencies": {},
+    "keywords": [],
+    "name": "emoji",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "emoji",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/light",
+                    "name": "FONT_LCARS_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9: ]",
+                    "file": "fonts/heavy",
+                    "name": "FONT_ROBOTO_38",
+                    "targetPlatforms": null,
+                    "trackingAdjust": -1,
+                    "type": "font"
+                },
+                {
+                    "file": "images/BATT_050_060.png",
+                    "name": "IMAGE_BATT_050_060",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_090_100.png",
+                    "name": "IMAGE_BATT_090_100",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_040_050.png",
+                    "name": "IMAGE_BATT_040_050",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_030_040.png",
+                    "name": "IMAGE_BATT_030_040",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_070_080.png",
+                    "name": "IMAGE_BATT_070_080",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_000_010.png",
+                    "name": "IMAGE_BATT_000_010",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batt_charging.png",
+                    "name": "IMAGE_BATT_CHARGING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_080_090.png",
+                    "name": "IMAGE_BATT_080_090",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_010_020.png",
+                    "name": "IMAGE_BATT_010_020",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_020_030.png",
+                    "name": "IMAGE_BATT_020_030",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_060_070.png",
+                    "name": "IMAGE_BATT_060_070",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/menu_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_off.png",
+                    "name": "IMAGE_NO_BLUETOOTH",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "d5e531f7-836b-41d5-9205-7bb00d1a6c01",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
